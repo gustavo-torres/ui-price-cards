@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+body{background: lightgrey ;margin: 0;}
+h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+.info-title h4{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #252525;
+  
+}
+.info-title p{
+  font-size: 10px;
+  color: #b4b4b4;
+  font-family: sans-serif;
+  padding-top: 4px;
+  font-weight: 600;
+}
+h2{
+  font-family: 'Exo', sans-serif;
+  font-size: 1.7em;
+}
+.price-cards-container{
+  padding: 60px 0;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.bg-card{
+  background: #fff;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.left{transform: rotate(-2deg);margin-top: 20px;}
+.right{transform: rotate(2deg);margin-top: 20px;}
+
+.promo-card{
+  background: rgb(167,141,212);
+  background: linear-gradient(165deg, rgba(54,184,158,1) 0%, rgba(122,89,194,1) 100%);
+  display: inline-block;
+  padding: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  min-width: 200px;
+  /* min-height: 300px; */
+  color: #fff;
+  font-family: sans-serif;
+  box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.hot-label{
+  /* background:#ffba00; */
+  background: linear-gradient(40deg, rgba(235,138,0,1) 0%, rgba(255,186,0,1) 100%);
+  display: inline-block;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  padding: 16px 20px;
+  border-radius: 2px 20px 2px 20px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(57,42,0,0.2);
+}
